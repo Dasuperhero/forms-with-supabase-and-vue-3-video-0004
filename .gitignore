@@ -26,3 +26,11 @@ coverage
 *.njsproj
 *.sln
 *.sw?
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+# Ignore generated API credentials
+server/config/key.json

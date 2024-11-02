@@ -3,17 +3,7 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <header>
-
-    <div class="wrapper">
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/secret">Secret</RouterLink>
-		<RouterLink to="/login">Login</RouterLink>
-      </nav>
-    </div>
-  </header>
-
+ 
   <div class="content">
 	<RouterView />
   </div>
@@ -30,7 +20,7 @@ nav a {
 	padding: 1em;
 }
 
-.content {
+/* .content {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -40,5 +30,5 @@ nav a {
 	margin-right: auto;
 	border-radius: 1em;
 	padding: 2em 0 2em 0;
-}
+} */
 </style>
